@@ -20,12 +20,10 @@
 
 
 ## 创建vue实例
-body部分
 ```html
     <div id="app" class="main">
     </div>
 ```
-js部分
 ```js
  new Vue({
     el:'#app',
