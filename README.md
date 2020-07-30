@@ -65,7 +65,7 @@ methods:{
         //如果你需要传参，可以在url后面加个对象`{}`，具体可以看axios官方文档
         axios.post('url')
          .then( res=> {
-            //这里我过滤了url不为空的对象，是子组合成一个新的数组对象。你可以根据你自己返回的数据进行修改
+            //这里我过滤了url不为空的对象，使之组合成一个新的数组对象。你可以根据你自己返回的数据进行修改
             this.picList=res.data.Data.filter(item=>{
             return item.url!=="" })     
           }).catch(function (error) {
