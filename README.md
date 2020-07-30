@@ -82,7 +82,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   loop: true, // 循环模式选项
  }) 
  
- //本实例我选择用函数包裹卸载methods中，加定时器是解决loop失效的问题。其他的配置属性建议去swiper的API文档进行查看
+ //本实例我选择用函数包裹写在methods中，加定时器是解决loop失效的问题。其他的配置属性建议去swiper的API文档进行查看
 initSwiper(){
   setTimeout(()=>{
   var mySwiper = new Swiper ('.swiper-container', {
